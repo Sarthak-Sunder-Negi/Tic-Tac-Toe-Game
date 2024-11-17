@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">Tic-Tac-Toe Game</div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="winner-msg-box hide">
+                <p id="msg">Winner!!</p>
+                <button class="new-game">New Game</button>
+                <button class="reset-btn-msg">Reset Board</button>
+            </div>
+            <div class="player-board">
+                <div class="score-board">
+                    <div class="X">
+                        <i class="fa-solid fa-x"></i><p id="scoreX">0</p>
+                    </div>
+                    <div class="O">
+                        <i class="fa-solid fa-o"></i><p id="scoreO">0</p>
+                    </div>
+                    <div class="Draw">
+                        <h3>DRAW</h3><p id="no-draw">0</p>
+                    </div>
+                </div>
+                <button class="reset-btn">Reset Board</button>
+            </div>
+            <div class="game-board">
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+                <button class="game-box"></button>
+            </div>
+        </div>
+    </main>
+    <script  src="first.js"></script>
+</body>
+</html>
